@@ -3,7 +3,7 @@
    tasks:
     - name: Clone project repository
       git:
-        repo: "enlace a repositorio"
+        repo: https://github.com/Nieto35/project-base.git
         dest: /www/project
         update: no
-        version: production
+        version: master
