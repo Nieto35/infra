@@ -1,0 +1,9 @@
+---
+ - hosts: localhost
+   tasks:
+    - name: Clone project repository
+      git:
+        repo: "enlace a repositorio"
+        dest: /www/project
+        update: no
+        version: production
