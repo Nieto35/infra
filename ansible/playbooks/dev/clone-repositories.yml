@@ -7,3 +7,5 @@
         dest: /www/project
         update: no
         version: master
+    - name: Change ownership of cloned files
+      command: chown -R 1000:1000 /www/project

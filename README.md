@@ -5,7 +5,7 @@
 ### Archivo hosts
 
 ```
-127.0.0.1 project.local 
+127.0.0.1 app.project.local 
 ```
 
 ### Docker
