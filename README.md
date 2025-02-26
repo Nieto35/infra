@@ -37,9 +37,14 @@ cd ansible/docker; docker build -t project/ansible .; cd ../..
 ./ansible-playbook.sh dev/copy-env-files.yml
 ```
 
-##### Arrancar y parar proyectos
+##### Arrancar proyectos
 
 ```shell
 ./ansible-playbook.sh dev/start.yml
+```
+
+##### Parar proyectos
+
+```shell
 ./ansible-playbook.sh dev/stop.yml
 ```
