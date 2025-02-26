@@ -4,6 +4,5 @@
     <mapping directory="$PROJECT_DIR$/../.." vcs="Git" />
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/www/local-proxy" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/www/project" vcs="Git" />
   </component>
 </project>
